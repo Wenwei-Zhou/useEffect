@@ -12,7 +12,7 @@ export default function ProgressBar({totalTime}) {
           }
       }, []);
       // 时间间隔，进度条总时长是3秒
-      // setRemaininingTime(prevTime => prevTime - 10); prevTime是当前的value，意思是3000 - 10，一支减，减到0位置（就是没有时间）
+      // setRemaininingTime(prevTime => prevTime - 10); prevTime是当前的value，意思是3000 - 10，一直减，减到0位置（就是没有时间）
       // 需要cleanup函数来避免在幕后（Console）进行的进程
 
     return(
